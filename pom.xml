@@ -18,6 +18,16 @@
         <url>http://hibernate.org</url>
     </organization>
 
+    <developers>
+        <developer>
+            <name>Cheyenne Weaver</name>
+            <organization>JBoss, a divsion of Red Hat</organization>
+            <roles>
+                <role>Graphic Design</role>
+            </roles>
+        </developer>
+    </developers>
+
     <contributors>
         <contributor>
             <name>Mark Newton</name>
