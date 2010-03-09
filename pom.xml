@@ -20,6 +20,17 @@
 
     <developers>
         <developer>
+            <name>Steve Ebersole</name>
+            <organization>JBoss, a divsion of Red Hat</organization>
+        </developer>
+        <developer>
+            <name>James Cobb</name>
+            <organization>JBoss, a divsion of Red Hat</organization>
+            <roles>
+                <role>Graphic Design</role>
+            </roles>
+        </developer>
+        <developer>
             <name>Cheyenne Weaver</name>
             <organization>JBoss, a divsion of Red Hat</organization>
             <roles>
@@ -54,6 +65,11 @@
         <developerConnection>scm:svn:https://svn.jboss.org/repos/hibernate/hibernate-jdocbook-style/trunk</developerConnection>
         <url>http://viewvc.jboss.org/cgi-bin/viewvc.cgi/hibernate/hibernate-jdocbook-style/trunk</url>
     </scm>
+
+    <issueManagement>
+        <system>jira</system>
+        <url>http://opensource.atlassian.com/projects/hibernate/browse/STYLE</url>
+    </issueManagement>
 
     <dependencies>
         <dependency>
