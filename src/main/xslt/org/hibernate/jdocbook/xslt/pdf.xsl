@@ -39,6 +39,10 @@
 
     <xsl:import href="classpath:/xslt/org/jboss/xslt/fonts/pdf/fonts.xsl" />
 
+    <!-- work around problems in the jboss.org styles wrt pdf & jhighlight -->
+    <xsl:param name="programlisting.font" select="'monospace,fixed'" />
+    <xsl:param name="programlisting.font.size" select="'75%'" />
+
 	<xsl:param name="title.font.family">
 		<xsl:variable name="font">
 			<xsl:call-template name="pickfont-sans"/>

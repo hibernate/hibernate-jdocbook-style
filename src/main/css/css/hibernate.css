@@ -1,5 +1,34 @@
 @import url("jbossorg.css");
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* work around problems in the jboss.org styles wrt html & jHighLight */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+pre {
+    font-family:Monaco,monospace;
+    line-height: 1.29em;
+}
+
+pre br {
+    display:none;
+}
+
+pre.JAVA {
+    line-height: 1.29em;
+}
+
+pre.XML {
+    line-height: 1.29em;
+}
+
+pre.JSP {
+    line-height: 1.29em;
+}
+
+pre.XHTML {
+    line-height: 1.29em;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 body{
 	background-image:url(../images/org/hibernate/bkg_gradient.png);
     font-family:'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
