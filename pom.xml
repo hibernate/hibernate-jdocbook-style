@@ -65,14 +65,16 @@
     </licenses>
 
     <scm>
-        <connection>scm:svn:http://anonsvn.jboss.org/repos/hibernate/hibernate-jdocbook-style/trunk</connection>
-        <developerConnection>scm:svn:https://svn.jboss.org/repos/hibernate/hibernate-jdocbook-style/trunk</developerConnection>
-        <url>http://viewvc.jboss.org/cgi-bin/viewvc.cgi/hibernate/hibernate-jdocbook-style/trunk</url>
+        <connection>scm:git:git://github.com/hibernate/hibernate-jdocbook-style.git</connection>
+        <developerConnection>scm:git:git@github.com:hibernate/hibernate-jdocbook-style.git</developerConnection>
+        <url>http://github.com/hibernate/hibernate-jdocbook-style</url>
+        <tag>HEAD</tag>
     </scm>
+
 
     <issueManagement>
         <system>jira</system>
-        <url>http://opensource.atlassian.com/projects/hibernate/browse/STYLE</url>
+        <url>https://hibernate.atlassian.net/projects/STYLE</url>
     </issueManagement>
 
     <dependencies>
