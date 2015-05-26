@@ -24,6 +24,10 @@
             <organization>JBoss, a divsion of Red Hat</organization>
         </developer>
         <developer>
+            <name>Emmanuel Bernard</name>
+            <organization>Red Hat, Inc.</organization>
+        </developer>
+        <developer>
             <name>James Cobb</name>
             <organization>JBoss, a divsion of Red Hat</organization>
             <roles>
@@ -73,10 +77,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jboss</groupId>
-            <artifactId>jbossorg-jdocbook-style</artifactId>
-            <version>1.1.0</version>
+            <groupId>org.jboss.pressgang</groupId>
+            <artifactId>pressgang-jdocbook-style</artifactId>
             <type>jdocbook-style</type>
+            <version>3.1.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.eclipse.wst.css</groupId>
@@ -89,9 +93,9 @@
             </exclusions>
         </dependency>
          <dependency>
-            <groupId>org.jboss</groupId>
-            <artifactId>jbossorg-docbook-xslt</artifactId>
-            <version>1.1.0</version>
+            <groupId>org.jboss.pressgang</groupId>
+            <artifactId>pressgang-xslt-ns</artifactId>
+            <version>3.1.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.eclipse.wst.css</groupId>
@@ -104,10 +108,10 @@
             </exclusions>
          </dependency>
         <dependency>
-            <groupId>org.jboss</groupId>
-            <artifactId>jbossorg-fonts</artifactId>
+            <groupId>org.jboss.pressgang</groupId>
+            <artifactId>pressgang-fonts</artifactId>
+            <version>3.1.3</version>
             <type>jdocbook-style</type>
-            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
