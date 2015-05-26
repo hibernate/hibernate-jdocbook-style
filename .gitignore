@@ -1,2 +1,5 @@
-# build
+# OS
+.DS_Store
+
+# Build
 /target
