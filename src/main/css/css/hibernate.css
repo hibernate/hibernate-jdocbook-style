@@ -38,12 +38,12 @@ a{
     text-decoration:none;
 }
 
-h1{
+div.book > div.titlepage h1 {
 	background-image:url(../images/org/hibernate/title_hdr.png);
 	color:#182737;
 }
 
-h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
     color:#4a5d75;
 }
 
