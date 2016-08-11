@@ -3,3 +3,7 @@
 
 # Build
 /target
+
+# Eclipse
+.project
+.settings

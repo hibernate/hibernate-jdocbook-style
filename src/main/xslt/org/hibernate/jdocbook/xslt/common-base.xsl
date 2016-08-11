@@ -33,6 +33,8 @@
         </xsl:if>
         <xsl:text>images/org/hibernate/docbook/</xsl:text>
     </xsl:param>
+
+    <xsl:param name="callout.graphics" select="0"/>
   
 </xsl:stylesheet>
 

@@ -23,7 +23,11 @@
   ~ Boston, MA  02110-1301  USA
   -->
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:d="http://docbook.org/ns/docbook">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:d="http://docbook.org/ns/docbook"
+                xmlns="http://www.w3.org/1999/xhtml"
+                exclude-result-prefixes="#default d"
+                version="1.0">
     <xsl:import href="common-base.xsl"/>
 
     <xsl:param name="siteHref" select="'http://www.hibernate.org'"/>
@@ -86,8 +90,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
         <!-- end of PressGang copy -->
 
-        <hr/>
-        <a>
+        <hr xmlns="http://www.w3.org/1999/xhtml" />
+        <xsl:if test="//d:book/d:bookinfo/d:copyright[1] or //d:legalnotice[1]">
+        <a xmlns="http://www.w3.org/1999/xhtml">
             <xsl:attribute name="href">
                 <xsl:value-of select="$legalnotice.filename"/>
             </xsl:attribute>
@@ -100,5 +105,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
                 </xsl:when>
             </xsl:choose>
         </a>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

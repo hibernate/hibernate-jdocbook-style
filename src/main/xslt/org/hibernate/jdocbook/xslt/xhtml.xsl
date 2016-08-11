@@ -24,7 +24,11 @@
   ~ Boston, MA  02110-1301  USA
   -->
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:d="http://docbook.org/ns/docbook"
+                xmlns="http://www.w3.org/1999/xhtml"
+                exclude-result-prefixes="#default d"
+                version="1.0">
 
     <xsl:import href="classpath:/xslt/org/jboss/pressgang/xhtml.xsl"/>
     <xsl:import href="common-xhtml.xsl"/>
